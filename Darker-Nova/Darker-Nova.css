@@ -1,0 +1,67 @@
+.mx_EventTile_message .mx_EventTile_content,
+.mx_EventTile_sticker .mx_EventTile_content {
+	border-radius: 3px !important;
+}
+
+.mx_EventTile_messageOut .mx_EventTile_line .mx_EventTile_content {
+	padding: 0.75rem 1rem !important;
+	background: #373a43 !important;
+}
+
+.mx_MatrixChat>:not(.mx_LeftPanel):not(.mx_SpacePanel):not(.mx_LeftPanel2):not(.mx_ResizeHandle):not(.nv_LeftPanel2) {
+	background: #202127 !important;
+}
+
+.nv_LeftPanel2_section .nv_RoomTile2:first-child,
+.nv_LeftPanel2_section :not(.nv_RoomTile2_active):not(.nv_RoomTile2_unread)+.nv_RoomTile2_active,
+.nv_LeftPanel2_section :not(.nv_RoomTile2_active):not(.nv_RoomTile2_unread)+.nv_RoomTile2_unread {
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+}
+
+.nv_LeftPanel2_section .nv_RoomTile2_lastHighlighted {
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}
+
+.mx_AccessibleButton.nv_RoomTile2.nv_RoomTile2_smallRow {
+	border-radius: 5px !important;
+}
+
+.nv_LeftPanel2_invitesBaloon,
+.nv_LeftPanel2_unreadBaloon {
+	border-radius: 5px !important;
+	background: #373a43 !important;
+}
+
+.nv_RoomTile2_unread {
+	background: transparent !important;
+}
+
+.mx_ReplyThread {
+	border-radius: 5px !important;
+}
+
+.nv_LeftPanel2_sectionHeader {
+	background: #424650 !important;
+}
+
+.nv_RoomTile2:hover {
+	background: #26282d !important;
+    border-radius: 0 !important !important;
+    transition-duration: 0s !important;
+    transition: none !important;
+}
+
+.nv_RoomTile2_active,
+.nv_RoomTile2_unread.nv_RoomTile2_active {
+	background-color: #373a43 !important;
+}
+
+.nv_RoomTile2_active .mx_DecoratedRoomAvatar .nv_NotificationBadge,
+.nv_RoomTile2_active:hover,
+.nv_RoomTile2_unread.nv_RoomTile2_active .mx_DecoratedRoomAvatar .nv_NotificationBadge,
+.nv_RoomTile2_unread.nv_RoomTile2_active:hover {
+	background-color: #373a43 !important;
+}
+

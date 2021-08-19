@@ -1,0 +1,50 @@
+.nv_LeftPanel2_channelBar {
+    background: #202225 !important;
+}
+
+.nv_LeftPanel2_roomListContainer {
+    background: #2F3136 !important;
+}
+
+.mx_MatrixChat>:not(.mx_LeftPanel):not(.mx_SpacePanel):not(.mx_LeftPanel2):not(.mx_ResizeHandle):not(.nv_LeftPanel2) {
+    background: #36393F !important;
+}
+
+.nv_LeftPanel2~.mx_RoomView .mx_RoomHeader {
+    background: #36393F !important;
+    border-bottom: 1px solid #2B2E33 !important;
+}
+
+.mx_RoomHeader {
+    box-shadow: none !important;
+}
+
+.mx_MessageComposer {
+    background: #36393F !important;
+}
+
+.mx_MessageComposer_wrapper {
+    background: #40444B !important;
+    border-radius: 8px !important;
+}
+
+.mx_EventTile_messageIn .mx_EventTile_content {
+    background: none !important;
+}
+
+.mx_EventTile_messageOut .mx_EventTile_line .mx_EventTile_content {
+    background: none !important;
+}
+
+.nv_RoomTile2_active, .nv_RoomTile2_unread.nv_RoomTile2_active {
+    background-color: #393C43 !important;
+}
+
+.nv_RoomTile2_active .mx_DecoratedRoomAvatar .nv_NotificationBadge, .nv_RoomTile2_active:hover, .nv_RoomTile2_unread.nv_RoomTile2_active .mx_DecoratedRoomAvatar .nv_NotificationBadge, .nv_RoomTile2_unread.nv_RoomTile2_active:hover {
+    background-color: #34373C !important;
+}
+
+.nv_RoomTile2:hover {
+    background-color: #34373C !important;
+    transition-duration: .1s !important;
+}
