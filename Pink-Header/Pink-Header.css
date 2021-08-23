@@ -1,0 +1,11 @@
+.bp_SearchBar {
+    background-color: #F2318D;
+}
+
+.bp_CommandBarSearch {
+    background-color: white;
+}
+
+.mx_UserMenu_dnd:before, .nv_UserMenu:before {
+    background-color: white;
+}
